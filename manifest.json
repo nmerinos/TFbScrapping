@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "HackSpace Search Scraping",
+  "description": "Scraps a webpage",
+  "version": "1.0",
+
+  "permissions": [
+  	"tabs",
+    "http://*/*", 
+    "https://*/*"
+  ],
+
+  "browser_action": {
+    "default_title": "HackSpace Search Scraping",
+    "default_icon": "icon.png", 
+    "default_popup": "popup.html"
+  }
+}
